@@ -1,0 +1,27 @@
+MyNFT contract deployed to: 0x1C98B08D9856841CF4B20C79aFe02b3d1B457331
+
+Ethereum address
+0x1C98B08D9856841CF4B20C79aFe02b3d1B457331
+Child Address
+0xcE74Eff8e6c77d86373a73cb99D04712d2a81569
+
+npx hardhat run scripts/batchMint.js --network goerli
+
+npx hardhat run scripts/batchTransfer.js --network goerli  
+
+npx hardhat run scripts/deploy.js --network goerli
+
+"0x976EA74026E726554dB657fA54763abd0C3a0aa9",
+"0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199",
+"0xdD2FD4581271e230360230F9337D5c0430Bf44C0",
+"0xbDA5747bFD65F08deb54cb465eB87D40e51B197E",
+"0x2546BcD3c84621e976D8185a91A922aE77ECEc30",
+// Add more recipient addresses as needed
+
+0,
+1,
+2,
+3,
+4,
+
+// Add more token IDs as needed
